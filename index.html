@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menus</title>
+
+    <style>
+
+        body{
+            background-color: #f5f0ea;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .menu{
+            width: 400px;
+            height: 550px;
+            color: white;
+            border: 5px solid white;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        h1{
+            text-align: center;
+            background-color: rgba(0,0,0,0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        ul{
+            background-color: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            list-style-type: none;
+        }
+
+        li{
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .breakfast{
+            background-image: url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0');
+        }
+
+        .lunch{
+            background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c');
+        }
+
+        .dinner{
+            background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0');
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="menu breakfast">
+        <h1>Breakfast Menu</h1>
+
+        <ul>
+            <li>Pancakes - $7</li>
+            <li>French Toast - $6</li>
+            <li>Scrambled Eggs - $5</li>
+            <li>Fruit Smoothie - $4</li>
+            <li>Coffee - $3</li>
+            <li>Orange Juice - $3</li>
+        </ul>
+    </div>
+
+    <div class="menu lunch">
+        <h1>Lunch Menu</h1>
+
+        <ul>
+            <li>Cheeseburger - $10</li>
+            <li>Caesar Salad - $8</li>
+            <li>Chicken Wrap - $9</li>
+            <li>Fries - $4</li>
+            <li>Iced Tea - $3</li>
+            <li>Lemonade - $3</li>
+        </ul>
+    </div>
+
+    <div class="menu dinner">
+        <h1>Dinner Menu</h1>
+
+        <ul>
+            <li>Grilled Salmon - $16</li>
+            <li>Steak with Potatoes - $20</li>
+            <li>Pasta Alfredo - $14</li>
+            <li>Soup of the Day - $7</li>
+            <li>Red Wine - $9</li>
+            <li>Sparkling Water - $4</li>
+        </ul>
+    </div>
+
+</body>
+</html>
